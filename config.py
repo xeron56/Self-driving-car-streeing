@@ -1,5 +1,5 @@
 class DataConfig(object):
-    data_path = "~/drive/steering_model/data/"
+    data_path = "~/drive/Thesis-2018/data/"
     data_name = "hsv_gray_diff_ch4"
     img_height = 192
     img_width = 256
@@ -21,7 +21,7 @@ class TrainConfig(DataConfig):
 #test config hold the path of the model
 #-----------------------------------------------
 class TestConfig(TrainConfig):
-    model_path = "~/drive/steering_model/submissions/final_model.hdf5"
+    model_path = "~/drive/Thesis-2018/submissions/final_model.hdf5"
     angle_train_mean = -0.004179079
 
 
@@ -34,4 +34,4 @@ class VisualizeConfig(object):
     img_path = DataConfig.data_path + "test/center/*.jpg"
 
 class StatsConfig(object):
-    data_path = "~/drive/steering_model/data/train/steering.csv"
+    data_path = "~/drive/Thesis-2018/data/train/steering.csv"
