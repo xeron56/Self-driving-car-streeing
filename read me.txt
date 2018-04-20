@@ -1,3 +1,6 @@
 https://github.com/kevindubon/steering_model
 
 C:/Users/MD. SHAHIDUL ISLAM/Desktop/steering_model
+
+
+for wsl: data_path = "/mnt/e/steering_model/data/train/steering.csv"
