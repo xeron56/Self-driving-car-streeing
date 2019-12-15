@@ -1,6 +1,9 @@
 # Prediction Of Steering Angles For Self-Driving Cars Using Deep Learning
 
-This is the code for training and running the Deep Learning Model to predict steering angles. For a detailed description of the work done, please refer to the PDF file Final_Report. 
+This is the code for training and running the Deep Learning Model to predict steering angles. 
+
+
+![self](https://user-images.githubusercontent.com/11449967/70856693-8d10a100-1f0b-11ea-8209-b68eda53c325.gif)
 
 ## Requirements & Dependencies
 This project was developed using a pre-built community AMI of the new AWS P2 instances (Go Deeper AMI), which have NVIDIA Tesla K80 GPUs and already come with much of the necessary tools installed. 
